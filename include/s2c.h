@@ -120,6 +120,7 @@ S2CCellId* s2c_cellid_prev(const S2CCellId* cellid);
 S2CCellId* s2c_cellid_range_min(const S2CCellId* cellid);
 S2CCellId* s2c_cellid_range_max(const S2CCellId* cellid);
 bool s2c_cellid_contains(const S2CCellId* a, const S2CCellId* b);
+bool s2c_cellid_contains_point(const S2CCellId* cellid, const S2CPoint* point);
 bool s2c_cellid_intersects(const S2CCellId* a, const S2CCellId* b);
 S2CLatLng* s2c_cellid_to_latlng(const S2CCellId* cellid);
 S2CPoint* s2c_cellid_to_point(const S2CCellId* cellid);
@@ -190,6 +191,7 @@ S1CInterval* s1c_interval_union(const S1CInterval* a, const S1CInterval* b);
 S2CCap* s2c_cap_new(void);
 S2CCap* s2c_cap_from_center_height(const S2CPoint* center, double height);
 S2CCap* s2c_cap_from_center_area(const S2CPoint* center, double area);
+S2CCap* s2c_cap_from_center_angle(const S2CPoint* center, const S1CAngle* angle);
 S2CCap* s2c_cap_from_point(const S2CPoint* point);
 S2CCap* s2c_cap_empty(void);
 S2CCap* s2c_cap_full(void);
@@ -217,6 +219,7 @@ bool s2c_cap_decode(S2CCap* cap, const char* data, size_t length);
 
 // S2Cell functions
 S2CCell* s2c_cell_new(const S2CCellId* cellid);
+S2CCell* s2c_cell_new_from_cellid(const S2CCellId* cellid);
 void s2c_cell_destroy(S2CCell* cell);
 S2CCellId* s2c_cell_id(const S2CCell* cell);
 int s2c_cell_face(const S2CCell* cell);
@@ -377,8 +380,8 @@ bool s2c_latlngrect_decode(S2CLatLngRect* rect, const char* data, size_t length)
 // S2CellUnion functions
 S2CCellUnion* s2c_cellunion_new(void);
 S2CCellUnion* s2c_cellunion_new_from_ids(const uint64_t* cell_ids, int num_cells);
-S2CCellUnion* s2c_cellunion_new_from_cellids(S2CCellId** cellids, int num_cells);
-S2CCellUnion* s2c_cellunion_from_normalized(S2CCellId** cellids, int num_cells);
+S2CCellUnion* s2c_cellunion_new_from_cellids(const S2CCellId** cellids, int num_cells);
+S2CCellUnion* s2c_cellunion_from_normalized(const S2CCellId** cellids, int num_cells);
 void s2c_cellunion_destroy(S2CCellUnion* cell_union);
 void s2c_cellunion_init(S2CCellUnion* cell_union, const uint64_t* cell_ids, int num_cells);
 int s2c_cellunion_num_cells(const S2CCellUnion* cell_union);
@@ -477,6 +480,33 @@ S2CBooleanOperation* s2c_boolean_operation_new(S2CBooleanOpType op_type, S2CBuil
 void s2c_boolean_operation_destroy(S2CBooleanOperation* op);
 bool s2c_boolean_operation_build(S2CBooleanOperation* op, S2CError* error);
 
+// Forward declarations for shape index types (defined later)
+
+// Additional S2BooleanOperation types
+typedef enum {
+    S2C_POLYGON_MODEL_OPEN,
+    S2C_POLYGON_MODEL_SEMI_OPEN,
+    S2C_POLYGON_MODEL_CLOSED
+} S2CPolygonModel;
+
+typedef enum {
+    S2C_POLYLINE_MODEL_OPEN,
+    S2C_POLYLINE_MODEL_SEMI_OPEN,
+    S2C_POLYLINE_MODEL_CLOSED
+} S2CPolylineModel;
+
+// S2BooleanOperation::Options
+typedef struct S2CBooleanOperationOptions S2CBooleanOperationOptions;
+S2CBooleanOperationOptions* s2c_boolean_operation_options_new(void);
+void s2c_boolean_operation_options_destroy(S2CBooleanOperationOptions* options);
+void s2c_boolean_operation_options_set_polygon_model(S2CBooleanOperationOptions* options, S2CPolygonModel model);
+void s2c_boolean_operation_options_set_polyline_model(S2CBooleanOperationOptions* options, S2CPolylineModel model);
+void s2c_boolean_operation_options_set_snap_function(S2CBooleanOperationOptions* options, int snap_level);
+
+// S2BooleanOperation with options (shape index versions defined later)
+S2CBooleanOperation* s2c_boolean_operation_new_with_options(S2CBooleanOpType op_type, S2CBuilderLayer* layer, 
+                                                           const S2CBooleanOperationOptions* options);
+
 // S2BufferOperation functions
 S2CBufferOperation* s2c_buffer_operation_new(S2CBuilderLayer* layer);
 S2CBufferOperation* s2c_buffer_operation_new_with_options(S2CBuilderLayer* layer, S1CAngle* buffer_radius, double error_fraction);
@@ -485,18 +515,88 @@ void s2c_buffer_operation_add_polygon(S2CBufferOperation* op, S2CPolygon* polygo
 void s2c_buffer_operation_add_point(S2CBufferOperation* op, const S2CPoint* point);
 bool s2c_buffer_operation_build(S2CBufferOperation* op, S2CError* error);
 
-// S2MutableShapeIndex functions
+// S2ShapeIndex functions (immutable index)
+typedef struct S2CShapeIndex S2CShapeIndex;
+S2CShapeIndex* s2c_shape_index_new(void);
+void s2c_shape_index_destroy(S2CShapeIndex* index);
+int s2c_shape_index_num_shape_ids(const S2CShapeIndex* index);
+int s2c_shape_index_num_edges(const S2CShapeIndex* index);
+void s2c_shape_index_minimize(S2CShapeIndex* index);
+
+// S2MutableShapeIndex functions  
 S2CMutableShapeIndex* s2c_mutable_shape_index_new(void);
 void s2c_mutable_shape_index_destroy(S2CMutableShapeIndex* index);
 void s2c_mutable_shape_index_add_polygon(S2CMutableShapeIndex* index, S2CPolygon* polygon);
+void s2c_mutable_shape_index_add_polyline(S2CMutableShapeIndex* index, S2CPolyline* polyline);
+void s2c_mutable_shape_index_add_point(S2CMutableShapeIndex* index, const S2CPoint* point);
+void s2c_mutable_shape_index_add_loop(S2CMutableShapeIndex* index, S2CLoop* loop);
+int s2c_mutable_shape_index_num_shape_ids(const S2CMutableShapeIndex* index);
+int s2c_mutable_shape_index_num_edges(const S2CMutableShapeIndex* index);
+void s2c_mutable_shape_index_minimize(S2CMutableShapeIndex* index);
+void s2c_mutable_shape_index_force_build(S2CMutableShapeIndex* index);
+S2CShapeIndex* s2c_mutable_shape_index_snapshot(const S2CMutableShapeIndex* index);
+
+// S2ContainsPointQuery for fast point-in-polygon tests
+typedef struct S2CContainsPointQuery S2CContainsPointQuery;
+S2CContainsPointQuery* s2c_contains_point_query_new(const S2CShapeIndex* index);
+S2CContainsPointQuery* s2c_contains_point_query_new_mutable(const S2CMutableShapeIndex* index);
+void s2c_contains_point_query_destroy(S2CContainsPointQuery* query);
+bool s2c_contains_point_query_contains(S2CContainsPointQuery* query, const S2CPoint* point);
+int s2c_contains_point_query_containing_shapes(S2CContainsPointQuery* query, const S2CPoint* point, int** shape_ids);
+
+// S2ClosestEdgeQuery for nearest neighbor searches
+typedef struct S2CClosestEdgeQuery S2CClosestEdgeQuery;
+typedef struct S2CClosestEdgeResult S2CClosestEdgeResult;
+
+S2CClosestEdgeQuery* s2c_closest_edge_query_new(const S2CShapeIndex* index);
+S2CClosestEdgeQuery* s2c_closest_edge_query_new_mutable(const S2CMutableShapeIndex* index);
+void s2c_closest_edge_query_destroy(S2CClosestEdgeQuery* query);
+void s2c_closest_edge_query_set_max_results(S2CClosestEdgeQuery* query, int max_results);
+void s2c_closest_edge_query_set_max_distance(S2CClosestEdgeQuery* query, const S1CChordAngle* max_distance);
+void s2c_closest_edge_query_set_max_error(S2CClosestEdgeQuery* query, const S1CAngle* max_error);
+void s2c_closest_edge_query_set_include_interiors(S2CClosestEdgeQuery* query, bool include_interiors);
+S2CClosestEdgeResult* s2c_closest_edge_query_find_closest_edge(S2CClosestEdgeQuery* query, const S2CPoint* target);
+int s2c_closest_edge_query_find_closest_edges(S2CClosestEdgeQuery* query, const S2CPoint* target, S2CClosestEdgeResult*** results);
+
+// S2ClosestEdgeResult accessors
+void s2c_closest_edge_result_destroy(S2CClosestEdgeResult* result);
+S1CChordAngle* s2c_closest_edge_result_distance(const S2CClosestEdgeResult* result);
+int s2c_closest_edge_result_shape_id(const S2CClosestEdgeResult* result);
+int s2c_closest_edge_result_edge_id(const S2CClosestEdgeResult* result);
+S2CPoint* s2c_closest_edge_result_edge_point(const S2CClosestEdgeResult* result);
+
+// S2CrossingEdgeQuery for intersection queries
+typedef struct S2CCrossingEdgeQuery S2CCrossingEdgeQuery;
+typedef struct S2CCrossingEdgePair S2CCrossingEdgePair;
+
+S2CCrossingEdgeQuery* s2c_crossing_edge_query_new(const S2CShapeIndex* index);
+S2CCrossingEdgeQuery* s2c_crossing_edge_query_new_mutable(const S2CMutableShapeIndex* index);
+void s2c_crossing_edge_query_destroy(S2CCrossingEdgeQuery* query);
+int s2c_crossing_edge_query_get_crossings(S2CCrossingEdgeQuery* query, 
+                                          const S2CPoint* a0, const S2CPoint* a1,
+                                          int shape_id,
+                                          S2CCrossingEdgePair*** crossings);
+bool s2c_crossing_edge_query_edge_intersects(S2CCrossingEdgeQuery* query,
+                                             const S2CPoint* a0, const S2CPoint* a1);
+
+// S2CrossingEdgePair accessors
+void s2c_crossing_edge_pair_destroy(S2CCrossingEdgePair* pair);
+int s2c_crossing_edge_pair_shape_id(const S2CCrossingEdgePair* pair);
+int s2c_crossing_edge_pair_edge_id(const S2CCrossingEdgePair* pair);
+S2CPoint* s2c_crossing_edge_pair_a(const S2CCrossingEdgePair* pair);
+S2CPoint* s2c_crossing_edge_pair_b(const S2CCrossingEdgePair* pair);
+
+// S2BooleanOperation with shape indexes (now that shape indexes are defined)
+bool s2c_boolean_operation_build_indexes(S2CBooleanOperation* op, const S2CShapeIndex* a, const S2CShapeIndex* b, S2CError* error);
+bool s2c_boolean_operation_build_mutable_indexes(S2CBooleanOperation* op, const S2CMutableShapeIndex* a, const S2CMutableShapeIndex* b, S2CError* error);
 
 // S2 utility functions
-S1CAngle* s2c_interpolate(double t, const S2CPoint* a, const S2CPoint* b);
+S2CPoint* s2c_interpolate(double t, const S2CPoint* a, const S2CPoint* b);
 int s2c_crossing_sign(const S2CPoint* a, const S2CPoint* b, const S2CPoint* c, const S2CPoint* d);
-bool s2c_get_intersection(const S2CPoint* a0, const S2CPoint* a1, const S2CPoint* b0, const S2CPoint* b1, S2CPoint** x);
-S2CPoint* s2c_rotate(const S2CPoint* point, const S2CPoint* axis, S1CAngle* angle);
+S2CPoint* s2c_get_intersection(const S2CPoint* a0, const S2CPoint* a1, const S2CPoint* b0, const S2CPoint* b1);
+S2CPoint* s2c_rotate(const S2CPoint* point, const S2CPoint* axis, const S1CAngle* angle);
 S1CAngle* s2c_turn_angle(const S2CPoint* a, const S2CPoint* b, const S2CPoint* c);
-bool s2c_update_min_distance(const S2CPoint* x, const S2CPoint* a, const S2CPoint* b, S1CChordAngle** min_dist);
+bool s2c_update_min_distance(const S2CPoint* x, const S2CPoint* a, const S2CPoint* b, S1CChordAngle* min_dist);
 bool s2c_ordered_ccw(const S2CPoint* a, const S2CPoint* b, const S2CPoint* c, const S2CPoint* o);
 
 // S2Earth functions
