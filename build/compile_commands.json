@@ -1,0 +1,590 @@
+[
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_s2cell_id_vector.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_s2cell_id_vector.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/encoded_s2cell_id_vector.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_s2point_vector.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_s2point_vector.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/encoded_s2point_vector.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_s2shape_index.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_s2shape_index.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/encoded_s2shape_index.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_string_vector.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/encoded_string_vector.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/encoded_string_vector.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/id_set_lexicon.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/id_set_lexicon.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/id_set_lexicon.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/mutable_s2shape_index.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/mutable_s2shape_index.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/mutable_s2shape_index.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/r2rect.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/r2rect.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/r2rect.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/r2rect.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s1angle.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s1angle.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s1angle.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s1angle.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s1chord_angle.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s1chord_angle.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s1chord_angle.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s1interval.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s1interval.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s1interval.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s1interval.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2boolean_operation.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2boolean_operation.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2boolean_operation.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2buffer_operation.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2buffer_operation.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2buffer_operation.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2buffer_operation.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builder.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builder.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builder.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builder.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builder_graph.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builder_graph.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builder_graph.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_closed_set_normalizer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_closed_set_normalizer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_closed_set_normalizer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_find_polygon_degeneracies.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_find_polygon_degeneracies.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_find_polygon_degeneracies.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_get_snapped_winding_delta.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_get_snapped_winding_delta.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_get_snapped_winding_delta.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_get_snapped_winding_delta.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_lax_polygon_layer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_lax_polygon_layer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polygon_layer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polyline_layer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_lax_polyline_layer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_lax_polyline_layer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_lax_polyline_layer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2point_vector_layer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2point_vector_layer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_s2point_vector_layer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2polygon_layer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2polygon_layer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_s2polygon_layer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2polyline_layer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2polyline_layer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_layer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2polyline_vector_layer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_s2polyline_vector_layer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_s2polyline_vector_layer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_snap_functions.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2builderutil_snap_functions.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2builderutil_snap_functions.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2cap.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cap.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cap.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2cap.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2cell.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2cell.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2cell_id.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell_id.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell_id.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2cell_id.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2cell_index.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell_index.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell_index.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2cell_index.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2cell_union.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell_union.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2cell_union.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2cell_union.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2centroids.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2centroids.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2centroids.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2centroids.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2closest_cell_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2closest_cell_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2closest_cell_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2closest_edge_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2closest_edge_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2closest_edge_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2closest_point_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2closest_point_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2closest_point_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2contains_vertex_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2contains_vertex_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2contains_vertex_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2convex_hull_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2convex_hull_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2convex_hull_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2coords.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2coords.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2coords.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2coords.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2crossing_edge_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2crossing_edge_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2crossing_edge_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2debug.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2debug.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2debug.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2debug.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2earth.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2earth.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2earth.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2earth.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_clipping.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_clipping.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2edge_clipping.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_crosser.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_crosser.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2edge_crosser.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_crossings.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_crossings.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2edge_crossings.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_distances.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_distances.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2edge_distances.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_tessellator.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2edge_tessellator.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2edge_tessellator.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2error.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2error.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2error.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2error.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2furthest_edge_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2furthest_edge_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2furthest_edge_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2hausdorff_distance_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2hausdorff_distance_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2hausdorff_distance_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2hausdorff_distance_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2latlng.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2latlng.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2latlng.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2latlng.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2latlng_rect.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2latlng_rect.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2latlng_rect.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2latlng_rect_bounder.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2latlng_rect_bounder.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2latlng_rect_bounder.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2lax_loop_shape.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2lax_loop_shape.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2lax_loop_shape.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2lax_polygon_shape.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2lax_polygon_shape.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2lax_polygon_shape.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2lax_polyline_shape.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2lax_polyline_shape.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2lax_polyline_shape.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2loop.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2loop.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2loop.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2loop.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2loop_measures.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2loop_measures.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2loop_measures.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2measures.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2measures.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2measures.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2measures.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2memory_tracker.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2memory_tracker.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2memory_tracker.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2memory_tracker.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2metrics.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2metrics.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2metrics.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2metrics.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2max_distance_targets.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2max_distance_targets.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2max_distance_targets.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2min_distance_targets.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2min_distance_targets.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2min_distance_targets.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2padded_cell.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2padded_cell.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2padded_cell.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2point_compression.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2point_compression.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2point_compression.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2point_compression.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2point_region.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2point_region.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2point_region.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2point_region.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2pointutil.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2pointutil.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2pointutil.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2pointutil.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2polygon.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polygon.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polygon.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2polygon.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2polyline.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2polyline.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline_alignment.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline_alignment.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2polyline_alignment.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline_measures.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline_measures.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2polyline_measures.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline_simplifier.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2polyline_simplifier.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2polyline_simplifier.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2predicates.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2predicates.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2predicates.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2predicates.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2projections.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2projections.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2projections.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2projections.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2r2rect.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2r2rect.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2r2rect.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2r2rect.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2region.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2region.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_term_indexer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_term_indexer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2region_term_indexer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_coverer.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_coverer.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2region_coverer.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_intersection.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_intersection.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2region_intersection.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2region_union.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_union.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2region_union.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2region_union.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shape_index.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_index.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_index.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shape_index.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_index_buffered_region.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_index_buffered_region.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shape_index_buffered_region.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_index_measures.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_index_measures.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shape_index_measures.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_measures.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_measures.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shape_measures.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shape_nesting_query.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_nesting_query.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shape_nesting_query.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shape_nesting_query.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_build_polygon_boundaries.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_build_polygon_boundaries.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_build_polygon_boundaries.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_coding.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_coding.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_coding.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_contains_brute_force.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_contains_brute_force.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_contains_brute_force.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_conversion.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_conversion.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_conversion.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_conversion.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_edge_iterator.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_edge_iterator.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_edge_iterator.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_get_reference_point.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_get_reference_point.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_get_reference_point.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2shapeutil_visit_crossing_edge_pairs.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2text_format.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2text_format.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2text_format.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2text_format.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2wedge_relations.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2wedge_relations.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2wedge_relations.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/s2winding_operation.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2winding_operation.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/s2winding_operation.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/s2winding_operation.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/bits/bit-interleave.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/bits/bit-interleave.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/util/bits/bit-interleave.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/coding/coder.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/coding/coder.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/util/coding/coder.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/coding/varint.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/coding/varint.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/util/coding/varint.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/math/exactfloat/exactfloat.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/math/exactfloat/exactfloat.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/util/math/exactfloat/exactfloat.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/math/mathutil.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/math/mathutil.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/util/math/mathutil.cc.o"
+},
+{
+  "directory": "/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry",
+  "command": "/usr/bin/c++ -DABSL_MIN_LOG_LEVEL=1 -Ds2_EXPORTS -I/Users/anshul/.julia/dev/geo/s2c/s2geometry/src -isystem /opt/homebrew/include -O3 -DNDEBUG -std=c++17 -arch arm64 -fPIC   -Wno-attributes -Wno-deprecated-declarations -o CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.o -c /Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/units/length-units.cc",
+  "file": "/Users/anshul/.julia/dev/geo/s2c/s2geometry/src/s2/util/units/length-units.cc",
+  "output": "s2geometry/CMakeFiles/s2.dir/src/s2/util/units/length-units.cc.o"
+}
+]

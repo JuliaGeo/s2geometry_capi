@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/cmake_install.cmake",
+		"/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/s2geometry/cmake_install.cmake",
+		"/Users/anshul/.julia/dev/geo/s2c/s2c_api/build/examples/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

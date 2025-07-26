@@ -1,0 +1,5 @@
+
+
+include("${CMAKE_CURRENT_LIST_DIR}/s2cTargets.cmake")
+
+check_required_components(s2c)
