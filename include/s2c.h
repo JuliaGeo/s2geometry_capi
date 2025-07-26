@@ -81,6 +81,10 @@ S2CLatLng* s2c_latlng_from_point(const S2CPoint* point);
 void s2c_latlng_destroy(S2CLatLng* latlng);
 S1CAngle* s2c_latlng_lat(const S2CLatLng* latlng);
 S1CAngle* s2c_latlng_lng(const S2CLatLng* latlng);
+double s2c_latlng_lat_degrees(const S2CLatLng* latlng);
+double s2c_latlng_lng_degrees(const S2CLatLng* latlng);
+double s2c_latlng_lat_radians(const S2CLatLng* latlng);
+double s2c_latlng_lng_radians(const S2CLatLng* latlng);
 S2CPoint* s2c_latlng_to_point(const S2CLatLng* latlng);
 bool s2c_latlng_is_valid(const S2CLatLng* latlng);
 S2CLatLng* s2c_latlng_normalized(const S2CLatLng* latlng);
@@ -152,6 +156,36 @@ void s1c_chordangle_destroy(S1CChordAngle* angle);
 S1CAngle* s1c_chordangle_to_angle(const S1CChordAngle* angle);
 double s1c_chordangle_degrees(const S1CChordAngle* angle);
 
+// R1Interval functions
+R1CInterval* r1c_interval_new(void);
+R1CInterval* r1c_interval_new_from_bounds(double lo, double hi);
+void r1c_interval_destroy(R1CInterval* interval);
+double r1c_interval_lo(const R1CInterval* interval);
+double r1c_interval_hi(const R1CInterval* interval);
+double r1c_interval_get_length(const R1CInterval* interval);
+double r1c_interval_get_center(const R1CInterval* interval);
+bool r1c_interval_is_empty(const R1CInterval* interval);
+bool r1c_interval_contains(const R1CInterval* interval, double point);
+bool r1c_interval_contains_interval(const R1CInterval* a, const R1CInterval* b);
+bool r1c_interval_intersects(const R1CInterval* a, const R1CInterval* b);
+R1CInterval* r1c_interval_intersection(const R1CInterval* a, const R1CInterval* b);
+R1CInterval* r1c_interval_union(const R1CInterval* a, const R1CInterval* b);
+
+// S1Interval functions
+S1CInterval* s1c_interval_new(void);
+S1CInterval* s1c_interval_new_from_bounds(double lo, double hi);
+void s1c_interval_destroy(S1CInterval* interval);
+double s1c_interval_lo(const S1CInterval* interval);
+double s1c_interval_hi(const S1CInterval* interval);
+double s1c_interval_get_length(const S1CInterval* interval);
+bool s1c_interval_is_empty(const S1CInterval* interval);
+bool s1c_interval_is_full(const S1CInterval* interval);
+bool s1c_interval_contains(const S1CInterval* interval, double radians);
+bool s1c_interval_contains_interval(const S1CInterval* a, const S1CInterval* b);
+bool s1c_interval_intersects(const S1CInterval* a, const S1CInterval* b);
+S1CInterval* s1c_interval_intersection(const S1CInterval* a, const S1CInterval* b);
+S1CInterval* s1c_interval_union(const S1CInterval* a, const S1CInterval* b);
+
 // S2Cap functions
 S2CCap* s2c_cap_new(void);
 S2CCap* s2c_cap_from_center_height(const S2CPoint* center, double height);
@@ -163,6 +197,7 @@ void s2c_cap_destroy(S2CCap* cap);
 S2CPoint* s2c_cap_center(const S2CCap* cap);
 double s2c_cap_height(const S2CCap* cap);
 bool s2c_cap_is_empty(const S2CCap* cap);
+bool s2c_cap_is_full(const S2CCap* cap);
 bool s2c_cap_is_valid(const S2CCap* cap);
 S2CCap* s2c_cap_clone(const S2CCap* cap);
 bool s2c_cap_contains(const S2CCap* cap, const S2CPoint* point);
@@ -176,6 +211,7 @@ S2CPoint* s2c_cap_get_centroid(const S2CCap* cap);
 void s2c_cap_add_point(S2CCap* cap, const S2CPoint* point);
 bool s2c_cap_approx_equals(const S2CCap* a, const S2CCap* b);
 bool s2c_cap_may_intersect_cell(const S2CCap* cap, const S2CCell* cell);
+double s2c_cap_area(const S2CCap* cap);
 char* s2c_cap_encode(const S2CCap* cap, size_t* length);
 bool s2c_cap_decode(S2CCap* cap, const char* data, size_t length);
 
@@ -498,6 +534,15 @@ double s2c_earth_to_meters_angle(const S1CAngle* angle);
 double s2c_earth_to_meters_chord_angle(const S1CChordAngle* angle);
 double s2c_earth_to_radians_meters(double meters);
 double s2c_earth_to_longitude_radians_meters(double meters, double latitude_radians);
+
+// Error handling functions
+S2CError* s2c_error_new(void);
+void s2c_error_destroy(S2CError* error);
+bool s2c_error_is_ok(const S2CError* error);
+int s2c_error_code(const S2CError* error);
+const char* s2c_error_message(const S2CError* error);
+void s2c_error_set(S2CError* error, int code, const char* message);
+void s2c_error_clear(S2CError* error);
 
 // Memory management helpers
 void s2c_free_string(char* str);

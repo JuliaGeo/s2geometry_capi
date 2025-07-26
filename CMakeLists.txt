@@ -62,6 +62,12 @@ if(BUILD_EXAMPLES)
     add_subdirectory(examples)
 endif()
 
+# Build tests
+option(S2C_BUILD_TESTS "Build S2C tests" ON)
+if(S2C_BUILD_TESTS)
+    add_subdirectory(tests)
+endif()
+
 # Installation
 install(TARGETS s2c
     EXPORT s2cTargets

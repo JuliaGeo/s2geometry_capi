@@ -57,18 +57,40 @@ The API follows these conventions:
 ## Implementation Status
 
 Currently implemented:
-- ✓ Basic geometric types (Point, LatLng, Angle)
-- ✓ Shape types (Loop, Polygon, Cap, Cell)
+- ✓ Basic geometric types (Point, LatLng, Angle, ChordAngle)
+- ✓ Interval types (R1Interval, S1Interval)
+- ✓ Shape types (Loop, Polygon, Polyline, Cap, Cell)
 - ✓ Basic operations (containment, intersection tests)
 - ✓ Region types (LatLngRect, CellUnion)
+- ✓ Advanced Polygon operations (IntersectWithPolyline, GetOverlapFractions, etc.)
+- ✓ Complete Polyline operations (Interpolate, Project, Subsample, etc.)
+- ✓ S2Earth utility functions (distance calculations, conversions)
+- ✓ Error handling system
 - ✓ Memory management functions
+- ✓ Basic test suite
 
 Not yet implemented:
-- Boolean operations (union, intersection, difference)
-- Advanced shape index operations
-- Polyline operations
-- Builder patterns for complex operations
-- Full error propagation
+- Boolean operations with shape indexes
+- S2Shape interface support
+- S2BufferOperation implementation
+- S2RegionCoverer GetCovering methods
+- Encode/Decode for major types
+- Full builder patterns for complex operations
+
+## Testing
+
+The project includes a comprehensive test suite:
+- `tests/test_runner.c` - Basic C test runner that doesn't require GoogleTest
+- `tests/test_basic_types.cc` - Tests for basic types (requires GoogleTest)
+- `tests/test_geometry_types.cc` - Tests for geometry types (requires GoogleTest)
+- `tests/test_utilities.cc` - Tests for utility functions (requires GoogleTest)
+
+To run tests:
+```bash
+cd build
+make test_runner
+./test_runner
+```
 
 ## Examples
 
